@@ -3,6 +3,9 @@
 <head>
     <title>Layout</title>
     <style>
+        * {
+            font-size: 40px;
+        }
         #a {
             display: inline-block;
             background-color: green; 
@@ -10,36 +13,58 @@
             height: 70px;
         }
         #b {
-            display: inline-block;
+            /* display: inline-block; */
+            float: right;
             background-color: green;
             width: 25%;
             height: 70px;
         }
         #c {
-            display: inline-block;
+            margin-top: 4px;
+            float: left;
             background-color: yellow;
             width: 25%;
             height: 600px;
         }
         #d {
-            margin-top: 4px;
-            display: inline-block;
+            margin: 4px;
+            float: left;
             background-color: blue;
             width: calc(75% - 25% - 8px);
             height: 70px;
         }
         #e {
-            margin: 4px;
-            display: inline-block;
+            margin-left: 4px;
+            float: left;
             background-color: blue;
             width: calc(75% - 25% - 8px);
             height: 70px;
         }
         #g {
             margin: 4px;
-            display: inline-block;
+            float: left;
             background-color: blue;
             width: calc(75% - 25% - 8px);
+            height: calc(600px - 140px - 8px);
+        }
+        #f {
+            float: left;
+            background-color: red;
+            width: 25%;
+            height: 70px;
+        }
+        #h {
+            margin-top: 4px;
+            float: left;
+            background-color: red;
+            width: 25%;
+            height: calc(600px - 140px - 8px);
+        }
+        #i {
+            margin-top: 4px;
+            display: inline-block;
+            background-color: rgb(17, 145, 177); 
+            width: 100%;
             height: 70px;
         }
             </style>
@@ -52,5 +77,9 @@
     <div id="d">D</div>
     <div id="e">E</div>
     <div id="g">G</div>
+    
+    <div id="f">F</div>
+    <div id="h">H</div>
+    <div id="i">I</div>
 </body>
 </html>
