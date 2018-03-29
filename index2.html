@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Layout2</title>
+    <style>
+        body {margin: 0; padding: 4px;}
+                       
+        #a {
+            /* border-bottom: solid white 5px; */
+            background-color: green;
+            height: 4em;
+            width: 75%;
+            float: left;
+        }
+        #b {
+            height: 4em;
+            width: 25%;
+            background-color: green;
+            float: right;
+        }
+        #c {
+            background-color: yellow;
+            width: 25%;
+            height: calc(100vh - 8em - 8px);
+            float: left;
+        }
+        #d {
+            background-color: blue;
+            float: left;
+            width: 50%;
+            height: 4em;
+        }
+        #e {
+            background-color: blue;
+            float: left;
+            width: 50%;
+            height: 4em;
+        }
+        #g {
+            background-color: blue;
+            float: left;
+            width: 50%;
+            height: calc(100vh - 8em - 8em - 8px);
+        }
+        #f {
+            background-color: red;
+            height: 8em;
+        }
+        #h {
+            background-color: red;
+            height: calc(100vh - 12em - 8px);
+        }
+        #i {
+            background-color: aqua;
+            width: 100vw;
+            height: 4em;
+            float: right;
+        }
+        
+    </style>
+</head>
+<body>
+    <header id="header">
+        <div id="a">A</div><div id="b">B</div>
+    </header>
+    <div>
+        <div id="c">C</div>
+        <div id="d">D</div>
+        <div id="e">E</div>
+        <div id="g">G</div>
+        <div id="f">F</div>
+        <div id="h">H</div>
+    </div>
+    <footer id="i">I</footer>
+</body>
+</html>
